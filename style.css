@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-div {
+    margin: 0;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.heading-div {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: 	#1877F2;
+}
+
+/*form and data's*/
+#display{
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.form-div-box {
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-header {
+    width: 100%;
+    height: auto;
+    border-bottom: solid 1px gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#form-head-new {
+    font-size: 30px;
+    font: bold;
+    margin: 7px;
+}
+
+#form-para-1 {
+    margin-top: 0;
+}
+
+/* Inputs */
+.input-fileds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+#first-name {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#sur-name {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.half-width {
+    width: 48%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.full-width {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#mobile-number {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#pass {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-para-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#form-content {
+    display: flex;
+    margin: 0;
+    color: gray;
+    font-weight: 500;
+}
+
+.date-of-birth {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dob {
+    display: flex;
+    width: 31%;
+}
+
+#date {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#month {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#year {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.form-para-3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#form-content-2 {
+    display: flex;
+    margin: 0;
+    color: gray;
+    font-weight: 500;
+}
+
+.radio-fileds {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.radio-label {
+    font-weight: 400;
+}
+
+.gender-type {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.gender {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-para-4{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        margin-right: 10px;  
+}
+#form-content-4{
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+.btn-properity{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-sign{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00a400;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #00a400;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.ancor-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}    
+#ancor-1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1877F2;
+    font-weight: 500;
+}
+.terms{
+    color: blue;
+}
